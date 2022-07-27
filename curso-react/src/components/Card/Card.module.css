@@ -1,0 +1,15 @@
+.card{
+    border:1px solid black;
+    box-shadow: rgba(rgb(0, 0, 0));
+    border-radius: 10px;
+    margin-bottom: 10px;
+    background-color: rgb(178, 137, 217);
+  }
+
+  .card h2{
+    border: 1px solid black;
+  }
+
+  .content{
+    padding: 5px;
+  }
