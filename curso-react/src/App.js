@@ -2,6 +2,7 @@
 import './App.css';
 import Card from './components/Card';
 import ComponenteCustomizavel from './components/ComponenteCustomizavel';
+import Contador from './components/Contador';
 import PrimeiroComponente from './components/PrimeiroComponente';
 import RenderizandoListas from './components/RenderizandoListas';
 import SegundoComponente from './components/SegundoComponente';
@@ -25,10 +26,12 @@ function App() {
         <ComponenteCustomizavel titulo = "Componente Customizado 🎂" saudacao = "Eai querido, meu nome é " nome = "João"/>
       </Card>
 
-      <Card>
+      <Card titulo =" Renderizando Listas">
         <RenderizandoListas />
       </Card>
-      
+      <Card titulo ="Estado">
+        <Contador valorInicial={10}/>
+      </Card>
      
     </div>
   );
